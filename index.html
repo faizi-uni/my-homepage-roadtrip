@@ -1,0 +1,76 @@
+// Basislayout einer Urlaubsrouten-Seite mit TailwindCSS
+
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+
+function Header() {
+  return (
+    <header className="bg-blue-600 text-white p-4 flex justify-between items-center">
+      <h1 className="text-xl font-bold">Urlaubsrouten</h1>
+      <nav className="space-x-4">
+        <Link to="/" className="hover:underline">Start</Link>
+        <Link to="/route" className="hover:underline">Route</Link>
+        <Link to="/ueber-mich" className="hover:underline">Über mich</Link>
+      </nav>
+    </header>
+  );
+}
+
+function Startseite() {
+  return (
+    <div className="p-6 text-center">
+      <h2 className="text-2xl font-semibold mb-4">Willkommen auf meiner Reiseroute!</h2>
+      <p className="mb-6">Hier findest du alle Etappen meines Urlaubs – von spannenden Orten bis zu besonderen Momenten.</p>
+      <Link to="/route" className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">Zur Route</Link>
+    </div>
+  );
+}
+
+const etappen = [
+  { tag: 1, uhrzeit: "10:00", ort: "Berlin", text: "Ankunft in Berlin und Besuch des Brandenburger Tors." },
+  { tag: 2, uhrzeit: "14:00", ort: "Leipzig", text: "Stadtrundgang und Kaffee in der Innenstadt." },
+  { tag: 3, uhrzeit: "09:30", ort: "Dresden", text: "Besichtigung der Frauenkirche und Elbufer-Spaziergang." },
+];
+
+function RouteSeite() {
+  return (
+    <div className="p-6">
+      <h2 className="text-2xl font-semibold mb-4">Meine Route</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {etappen.map((etappe, index) => (
+          <div key={index} className="border rounded-lg p-4 shadow">
+            <h3 className="font-bold text-lg">Tag {etappe.tag}</h3>
+            <p className="text-sm text-gray-600">{etappe.uhrzeit} – {etappe.ort}</p>
+            <p className="mt-2 text-gray-800 line-clamp-3">{etappe.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function UeberMich() {
+  return (
+    <div className="p-6">
+      <h2 className="text-2xl font-semibold mb-4">Über mich</h2>
+      <p>Ich liebe es, neue Orte zu entdecken und meine Reisen zu dokumentieren. Diese Seite ist ein kleiner Einblick in meine letzten Abenteuer.</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <Router>
+      <Header />
+      <main className="min-h-screen bg-gray-50">
+        <Routes>
+          <Route path="/" element={<Startseite />} />
+          <Route path="/route" element={<RouteSeite />} />
+          <Route path="/ueber-mich" element={<UeberMich />} />
+        </Routes>
+      </main>
+    </Router>
+  );
+}
+
+export default App;
