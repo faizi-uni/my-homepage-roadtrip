@@ -1,0 +1,257 @@
+[
+    {
+        "tag": 1,
+        "datum": "17.04.2025",
+        "route": "Kassel → Hamburg",
+        "fahrzeit": "ca. 3,5–4 h",
+        "highlights": [
+            {
+                "name": "Elbstrand-Spaziergang",
+                "url": "https://goo.gl/maps/MzLNDuxJuvvxn8MGA"
+            },
+            {
+                "name": "Public Coffee Roasters",
+                "url": "https://goo.gl/maps/X3wAz99kxXEuBkAa6"
+            },
+            {
+                "name": "Elbphilharmonie besuchen",
+                "url": "https://goo.gl/maps/Zu6KY5Pe6Yibj6Fx8"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Fischbrötchen am Hafen"
+            },
+            {
+                "name": "Otto's Burger",
+                "url": "https://goo.gl/maps/d2GdJtMDvSkM7gSp8"
+            }
+        ],
+        "schlafen": "Superbude St. Pauli oder hundefreundliches Hotel",
+        "kategorie": [
+            "Stadt",
+            "Architektur",
+            "Strand"
+        ],
+        "notiz": "Ideal für einen urbanen Start",
+        "hundetipp": "Leinenfreier Abschnitt am Elbstrand"
+    },
+    {
+        "tag": 2,
+        "datum": "18.04.2025",
+        "route": "Hamburg → Lübeck → Fehmarn",
+        "fahrzeit": "ca. 2,5 h",
+        "highlights": [
+            {
+                "name": "Holstentor Lübeck",
+                "url": "https://goo.gl/maps/TNfG7tTPDzWcVL3K9"
+            },
+            {
+                "name": "Altstadtspaziergang Lübeck"
+            },
+            {
+                "name": "Fehmarn Südstrand",
+                "url": "https://goo.gl/maps/yV5JwhChjeAqM9L29"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Cafe Affenbrot Lübeck",
+                "url": "https://goo.gl/maps/E58AwV7bnJUZyKHGA"
+            },
+            {
+                "name": "Fischbrötchenstand Fehmarn"
+            }
+        ],
+        "schlafen": "AirBnB oder Auto (Park4Night)",
+        "kategorie": [
+            "Stadt",
+            "Strand",
+            "Natur"
+        ],
+        "notiz": "Naturfokus & erste Meeresluft",
+        "hundetipp": "Südstrand Fehmarn erlaubt Hunde im April ohne Leine"
+    },
+    {
+        "tag": 3,
+        "datum": "19.04.2025",
+        "route": "Fehmarn → Fähre → Møn → Kopenhagen",
+        "fahrzeit": "ca. 3,5–4 h inkl. Fähre",
+        "highlights": [
+            {
+                "name": "Fähre Puttgarden-Rødby"
+            },
+            {
+                "name": "Møns Klint",
+                "url": "https://goo.gl/maps/RAj7x4z8ZboGjPLi6"
+            },
+            {
+                "name": "Picknick am Kreidefelsen"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Selbstverpflegung unterwegs"
+            }
+        ],
+        "schlafen": "Scandic Kødbyen oder hundefreundliches Hotel",
+        "kategorie": [
+            "Natur",
+            "Strand",
+            "Panorama"
+        ],
+        "notiz": "Kopenhagen als Basisstation, zentral gelegen",
+        "hundetipp": "Møns Strand erlaubt Hunde im Frühling frei"
+    },
+    {
+        "tag": 4,
+        "datum": "20.04.2025",
+        "route": "Kopenhagen",
+        "fahrzeit": "–",
+        "highlights": [
+            {
+                "name": "Danish Architecture Center",
+                "url": "https://goo.gl/maps/R4uJ1Exz2Kv"
+            },
+            {
+                "name": "Spaziergang Islands Brygge",
+                "url": "https://goo.gl/maps/jkFAeJyaYxT2"
+            },
+            {
+                "name": "Superkilen Park",
+                "url": "https://goo.gl/maps/qGkq4pZ42f82"
+            },
+            {
+                "name": "Reffen Street Food Market",
+                "url": "https://goo.gl/maps/XuAaKeYv1oK2"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Reffen Street Food",
+                "url": "https://goo.gl/maps/XuAaKeYv1oK2"
+            }
+        ],
+        "schlafen": "wie Vortag",
+        "kategorie": [
+            "Architektur",
+            "Kultur",
+            "Street Food"
+        ],
+        "notiz": "Architektur- & Kulturtag",
+        "hundetipp": "Fælledparken & Islands Brygge gut für Hunde"
+    },
+    {
+        "tag": 5,
+        "datum": "21.04.2025",
+        "route": "Kopenhagen oder Ausflug",
+        "fahrzeit": "–",
+        "highlights": [
+            {
+                "name": "Louisiana Museum of Modern Art",
+                "url": "https://goo.gl/maps/E79DcNSCVRB2"
+            },
+            {
+                "name": "Nyhavn",
+                "url": "https://goo.gl/maps/qv5vH4vFoDU2"
+            },
+            {
+                "name": "Coffee Collective",
+                "url": "https://goo.gl/maps/x9nKHfGvUeD2"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Vækst (optional)",
+                "url": "https://goo.gl/maps/JWULGZBJ2SSnA8gp6"
+            }
+        ],
+        "schlafen": "wie Vortag oder AirBnB-Wechsel",
+        "kategorie": [
+            "Museum",
+            "Design",
+            "Kaffee"
+        ],
+        "notiz": "Mehr Zeit für Kultur & Design",
+        "hundetipp": "Fahrradtour mit Hund entlang des Wassers möglich"
+    },
+    {
+        "tag": 6,
+        "datum": "22.04.2025",
+        "route": "Kopenhagen → Odense",
+        "fahrzeit": "ca. 2 h",
+        "highlights": [
+            {
+                "name": "H.C. Andersen Museum",
+                "url": "https://goo.gl/maps/d61W2cdJ1ds"
+            },
+            {
+                "name": "Altstadt Odense",
+                "url": "https://goo.gl/maps/ykwPU9BmdP22"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Nelle’s Kaffeebar",
+                "url": "https://goo.gl/maps/LZnMZY9dzW82"
+            }
+        ],
+        "schlafen": "Hundefreundliches Hotel in Odense",
+        "kategorie": [
+            "Stadt",
+            "Kultur",
+            "Kaffee"
+        ],
+        "notiz": "Entspannter Zwischenstopp",
+        "hundetipp": "Grünanlagen in Odense gut geeignet"
+    },
+    {
+        "tag": 7,
+        "datum": "23.04.2025",
+        "route": "Odense → Flensburg oder Lübeck",
+        "fahrzeit": "ca. 3 h",
+        "highlights": [
+            {
+                "name": "Spaziergang am Wasser",
+                "url": "https://goo.gl/maps/JYB9rZsM8Fv"
+            },
+            {
+                "name": "Fischrestaurant",
+                "url": "https://goo.gl/maps/Mf6XJgyv9Dr"
+            }
+        ],
+        "essen": [
+            {
+                "name": "Fischrestaurant oder lokale Spezialitäten"
+            }
+        ],
+        "schlafen": "Spontanes Hotel oder Auto",
+        "kategorie": [
+            "Erholung",
+            "Essen",
+            "Wasser"
+        ],
+        "notiz": "Gemäßigter Rückweg mit Pause",
+        "hundetipp": "Flexibel Pausen einlegen"
+    },
+    {
+        "tag": 8,
+        "datum": "24.04.2025",
+        "route": "Flensburg/Lübeck → Kassel",
+        "fahrzeit": "ca. 4,5–5 h",
+        "highlights": [
+            {
+                "name": "Mittagsstopp in Hannover",
+                "url": "https://goo.gl/maps/MDoDrsfcmfR2"
+            }
+        ],
+        "essen": [],
+        "schlafen": "–",
+        "kategorie": [
+            "Rückfahrt",
+            "Pause"
+        ],
+        "notiz": "Gut getakteter Heimweg",
+        "hundetipp": "Letzte lange Etappe, mit Pausen planen"
+    }
+]
